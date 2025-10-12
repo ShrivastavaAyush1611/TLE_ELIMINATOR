@@ -23,7 +23,7 @@ int main(){
             if(i == n-1) ans = max(ans, 2*(arr[i]-arr[i-1]));
             else ans = max(ans, arr[i]-arr[i-1]);
         }
-        cout<<ans;
+        cout<<ans<<endl;
     }
     return 0;
 }

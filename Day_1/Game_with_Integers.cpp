@@ -2,12 +2,12 @@
 using namespace std;
 int main(){
     int n;
-    cout<<8;
+    cin>>n;
     for(int i=0;i<n;i++){
         int x;
         cin>>x;
-        if(x%3==0) cout<<"Second";
-        else cout<<"First";
+        if(x%3==0) cout<<"Second"<<endl;
+        else cout<<"First"<<endl;
     }
     return 0;
 

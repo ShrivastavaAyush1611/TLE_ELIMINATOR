@@ -18,8 +18,8 @@ int main(){
             }
             if(s[i]=='.') cnt++;
         }
-        if(three) cout<<2;
-        else cout<<cnt;
+        if(three) cout<<2<<endl;
+        else cout<<cnt<<endl;
     }
     return 0;
 }

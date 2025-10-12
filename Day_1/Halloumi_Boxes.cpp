@@ -13,8 +13,8 @@ int main(){
         for(int i=0;i<n;i++) cin>>a[i];
         vector<int>arr = a;
         sort(arr.begin(), arr.end());
-        if(arr == a || k > 1) cout<<"YES";
-        else cout<<"NO";
+        if(arr == a || k > 1) cout<<"YES"<<endl;
+        else cout<<"NO"<<endl;
     }
     return 0;
 }
